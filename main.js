@@ -1,7 +1,7 @@
 // IMPORTS
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { GUI } from 'three/examples/jsm/libs/lil-gui.module.min.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js';
+import { GUI } from 'https://cdn.jsdelivr.net/npm/lil-gui@0.18.1/dist/lil-gui.esm.min.js';
 
 document.body.style.margin = '0';
 document.body.style.overflow = 'hidden';
@@ -1111,7 +1111,7 @@ function animate() {
     
         const ballWorldPos = ball.position.clone();
     
-        // Calculate center of the 4 fingers
+        // Calculate the center of the 4 fingers
         const centerX = (finger1Pos.x + finger2Pos.x + finger3Pos.x + finger4Pos.x) / 4;
         const centerY = (finger1Pos.y + finger2Pos.y + finger3Pos.y + finger4Pos.y) / 4;
         const centerZ = (finger1Pos.z + finger2Pos.z + finger3Pos.z + finger4Pos.z) / 4;
