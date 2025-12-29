@@ -1,7 +1,7 @@
 // IMPORTS
-import * as THREE from 'https://cdn.skypack.dev/three@0.160.0';
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.160.0/examples/jsm/controls/OrbitControls.js';
-import { GUI } from 'https://cdn.skypack.dev/lil-gui@0.18.1';
+import * as THREE from 'https://esm.sh/three@0.160.0';
+import { OrbitControls } from 'https://esm.sh/three@0.160.0/examples/jsm/controls/OrbitControls.js';
+import { GUI } from 'https://esm.sh/lil-gui@0.18.1';
 
 document.body.style.margin = '0';
 document.body.style.overflow = 'hidden';
