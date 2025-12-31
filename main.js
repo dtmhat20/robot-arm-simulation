@@ -43,24 +43,24 @@ const floorRoughnessMap = floortextureLoader.load('./texture/floor/Floor_1K-JPG_
 const robotTexLoader = new THREE.TextureLoader();
 
 // 1. Base
-const baseAlbedo = robotTexLoader.load('./texture/robot/Base_Albedo.png');
-const baseMetal   = robotTexLoader.load('./texture/robot/Base_Metallic.png');
-const baseNormal  = robotTexLoader.load('./texture/robot/Base_NormalDX.png');
+const baseAlbedo = robotTexLoader.load('./texture/robot/Base_Albedo.jpg');
+const baseMetal   = robotTexLoader.load('./texture/robot/Base_Metallic.jpg');
+const baseNormal  = robotTexLoader.load('./texture/robot/Base_NormalDX.jpg');
 
 // 2. Arm
-const armAlbedo = robotTexLoader.load('./texture/robot/Arm_Albedo.png');
-const armMetal   = robotTexLoader.load('./texture/robot/Arm_Metallic.png');
-const armNormal  = robotTexLoader.load('./texture/robot/Arm_NormalDX.png');
+const armAlbedo = robotTexLoader.load('./texture/robot/Arm_Albedo.jpg');
+const armMetal   = robotTexLoader.load('./texture/robot/Arm_Metallic.jpg');
+const armNormal  = robotTexLoader.load('./texture/robot/Arm_NormalDX.jpg');
 
 // 3. Joint
-const jointAlbedo = robotTexLoader.load('./texture/robot/Joint_Albedo.png');
-const jointMetal   = robotTexLoader.load('./texture/robot/Joint_Metallic.png');
-const jointNormal  = robotTexLoader.load('./texture/robot/Joint_NormalDX.png');
+const jointAlbedo = robotTexLoader.load('./texture/robot/Joint_Albedo.jpg');
+const jointMetal   = robotTexLoader.load('./texture/robot/Joint_Metallic.jpg');
+const jointNormal  = robotTexLoader.load('./texture/robot/Joint_NormalDX.jpg');
 
 // 4. Gripper
-const gripperAlbedo = robotTexLoader.load('./texture/robot/Gripper_Albedo.png');
-const gripperMetal  = robotTexLoader.load('./texture/robot/Gripper_Metallic.png');
-const gripperNormal   = robotTexLoader.load('./texture/robot/Gripper_NormalDX.png');
+const gripperAlbedo = robotTexLoader.load('./texture/robot/Gripper_Albedo.jpg');
+const gripperMetal  = robotTexLoader.load('./texture/robot/Gripper_Metallic.jpg');
+const gripperNormal   = robotTexLoader.load('./texture/robot/Gripper_NormalDX.jpg');
 
 // ROOM CONSTANTS
 const roomSize = 60;
